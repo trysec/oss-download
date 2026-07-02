@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # 设定文件下载的URL和临时文件夹路径
-URL="https://2wepogbvu71019.oss-ap-northeast-1.aliyuncs.com/ChatKnow-Setup-2.0.4-win-x64.exe"  # 请替换为实际的文件URL
+URL="https://example.com"  # 请替换为实际的文件URL
 TEMP_DIR="/tmp/downloads"
 
 # 创建临时文件夹，如果不存在的话
 mkdir -p "$TEMP_DIR"
 
-# 循环10次下载文件
+# 循环10000次下载文件
 for i in {1..10000}
 do
   # 临时文件的路径
